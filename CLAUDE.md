@@ -23,3 +23,9 @@ We follow Conventional Commits:
 - docs: documentation
 - fix: bug fix
 - chore: setup or config
+## AI Usage Rules Learned
+
+- Always provide clear and specific requirements when prompting AI
+- Always validate user inputs thoroughly before submission
+- Always display field-specific error messages instead of generic errors
+- Always test edge cases such as empty input, invalid formats, and short values
