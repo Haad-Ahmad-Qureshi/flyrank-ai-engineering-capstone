@@ -15,3 +15,13 @@ button {
 #error {
   color: red;
 }
+.field-error {
+  color: red;
+  font-size: 0.85em;
+  display: block;
+  min-height: 1.2em;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}

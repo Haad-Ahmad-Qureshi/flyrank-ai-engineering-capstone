@@ -7,14 +7,21 @@
 <body>
 
   <h2>Settings Form</h2>
+<form id="settingsForm" novalidate>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="Name" required minlength="2">
+  <span class="field-error" id="nameError"></span><br><br>
 
-  <form id="settingsForm">
-    <input type="text" id="name" placeholder="Name"><br><br>
-    <input type="email" id="email" placeholder="Email"><br><br>
-    <input type="password" id="password" placeholder="Password"><br><br>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Email" required>
+  <span class="field-error" id="emailError"></span><br><br>
 
-    <button type="submit">Save</button>
-  </form>
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" placeholder="Password" required minlength="8">
+  <span class="field-error" id="passwordError"></span><br><br>
+
+  <button type="submit">Save</button>
+</form>
 
   <p id="error"></p>
 
